@@ -125,15 +125,17 @@ const Section = styled.section`
       display: flex;
       list-style-type: none;
       width: max-content;
+      transition: 0.3s ease-in-out;
       li {
         padding: 1rem 2rem;
         border-bottom: 0.1rem solid black;
+        transition: 0.1s ease-in-out;
         &:hover{
           cursor: pointer;
         }
       }
       .active {
-        border-bottom: 0.4rem solid #46bceb;
+        border-bottom: 0.4rem solid #8338ec;
         box-shadow: rgba(30, 30, 100, 0.25) 0px 2px 5px -1px, rgba(0, 0, 90, 0.3) 0px 1px 3px -1px;
       }
     }
@@ -150,6 +152,7 @@ const Section = styled.section`
       gap: 0.5rem;
       background-color: #8338ec14;
       border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
       transition: 0.3s ease-in-out;
       &:hover {
         transform: translateX(0.4rem) translateY(-1rem);

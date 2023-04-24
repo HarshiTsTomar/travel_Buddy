@@ -59,12 +59,12 @@ const Section = styled.section`
     flex-direction: column;
     gap: 1rem;
     padding: 2rem;
-    background-color: aliceblue;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #F0F8FF;
+    box-shadow: #4361ee 0px 0px 30px -10px;
     transition: 0.3s ease-in-out;
     &:hover {
-      transform: translateX(0.4rem) translateY(-1rem);
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      transform: translateX(0.4rem) translateY(-0.4rem);
+      box-shadow: #4361ee 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     }
     .icon {
       img {

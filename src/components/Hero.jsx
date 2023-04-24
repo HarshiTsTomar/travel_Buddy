@@ -39,7 +39,7 @@ export default function Hero() {
 
 const Section = styled.section`
   position: relative;
-  margin-top: 2rem;
+  margin-top: 8rem;
   width: 100%;
   height: 100%;
   .background {
@@ -54,7 +54,7 @@ const Section = styled.section`
     width: 100%;
     position: absolute;
     top: 0;
-    z-index: 3;
+    z-index: 2;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -79,6 +79,7 @@ const Section = styled.section`
       background-color: #ffffffce;
       padding: 0.5rem;
       border-radius: 0.5rem;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.12);
       .container {
         display: flex;
         align-items: center;
@@ -112,12 +113,50 @@ const Section = styled.section`
         border: none;
         color: white;
         background-color: #4361ee;
+        box-shadow: inset 0px 0px 17px rgba(0,0,0,0.5);
         font-size: 1.1rem;
         text-transform: uppercase;
         transition: 0.3s ease-in-out;
         &:hover {
           background-color: #023e8a;
         }
+      }
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 980px) {
+    height: 25rem;
+    .background {
+      background-color: palegreen;
+      img {
+        height: 100%;
+      }
+    }
+    .content {
+      .title {
+        h1 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.8rem;
+          padding: 1vw;
+        }
+      }
+      .search {
+        flex-direction: column;
+        padding: 0.8rem;
+        gap: 0.8rem;
+        /* padding: 0; */
+        .container {
+          padding: 0 0.8rem;
+          input[type="date"] {
+            padding-left: 1rem;
+          }
+        }
+        button {
+          padding: 1rem;
+          font-size: 1rem;
+        }
+        /* display: none; */
       }
     }
   }`;

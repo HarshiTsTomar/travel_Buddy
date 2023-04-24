@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import avatarImage from "../assets/";
+import avatarImage from "../assets/avatarImage.jpeg";
 export default function Testimonials() {
   return (
     <Section id="testimonials">
@@ -16,8 +16,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Harshit</h4>
+              <span>CEO - This Website</span>
             </div>
           </div>
         </div>
@@ -29,8 +29,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Singh</h4>
+              <span>CEO - This website</span>
             </div>
           </div>
         </div>
@@ -42,8 +42,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Tomar</h4>
+              <span>CEO - This Website</span>
             </div>
           </div>
         </div>
@@ -64,14 +64,14 @@ const Section = styled.section`
     margin: 0 2rem;
     gap: 2rem;
     .testimonial {
-      background-color: aliceblue;
+      background-color: rgba(14,148,157,0.1);
       padding: 2rem;
       border-radius: 0.5rem;
-      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
       transition: 0.3s ease-in-out;
       &:hover {
-        transform: translateX(0.4rem) translateY(-1rem);
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform:translateY(-1rem);
+        box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
       }
       .info {
         display: flex;
