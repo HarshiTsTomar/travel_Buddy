@@ -38,20 +38,25 @@ export default function Footer() {
 const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-evenly;
-  background: url(./assets/bg_footer.png) no-repeat;
+  background: url(./assets/bg_footer.png); no-repeat;
   background-size: cover;
   background-color: #090b3c;
+  color:white;
   border-radius: 0.5rem;
   padding: 2.5rem;
+  span{
+    color: white;
+  }
   ul {
     display: flex;
     list-style-type: none;
+    color: white;
     gap: 2rem;
     li {
       a {
         text-decoration: none;
         font-weight: 400;
-        color: black;
+        color: white;
         transition: 0.3s ease-in-out;
         &:hover {
           color: #302ce9;
