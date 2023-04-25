@@ -22,13 +22,13 @@ export default function Footer() {
       </ul>
       <ul className="social__links">
         <li>
-          <BsFacebook />
+           <a href="https://www.linkedin.com/in/harshit-singh-tomar-6635a4242/"><BsFacebook/></a>
         </li>
         <li>
-          <AiFillInstagram />
+         <a  href="https://www.linkedin.com/in/harshit-singh-tomar-6635a4242/"><AiFillInstagram /></a> 
         </li>
         <li>
-          <BsLinkedin />
+          <a  href="https://www.linkedin.com/in/harshit-singh-tomar-6635a4242/"><BsLinkedin /></a>
         </li>
       </ul>
     </FooterContainer>
