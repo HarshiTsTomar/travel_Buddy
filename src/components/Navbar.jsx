@@ -70,7 +70,7 @@ export default function Navbar() {
 const Nav = styled.nav`
   position:fixed;
   top: 0;
-  width: 95.5vw;
+  width: 96.7%;
   z-index: 3;
   display: flex;
   padding:20px;
